@@ -1,3 +1,12 @@
+@media only screen and (max-width:400px) {
+
+    footer {
+        display:none;
+
+    }
+}
+
+
 body {
     min-width: 290px;
 }
@@ -7,6 +16,26 @@ body {
     margin-left: 310px;
     padding: 20px;
     margin-bottom: 110px;
+}
+
+
+header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+section article {
+    margin: 20px;
+}
+
+
+h3 {
+    font-size: 200%;
+}
+
+#navbar-title {
+    font-size: 200%;
+    text-align: center;
 }
 
 #navbar {
@@ -22,10 +51,19 @@ body {
 
 #navbar ul {
     height: 88%;
+    width: 100%;
     padding: 0;
     overflow-y: auto;
     overflow-x: hidden;
   }
+
+.nav-link {
+    display: block;
+    padding: 10px 30px;
+    font-size: 130%;
+    text-align: center;
+    text-decoration: none;
+}
 
 footer {
     position: fixed;
@@ -33,4 +71,24 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
 }
+
+@media screen and (max-height:400px) {
+
+    footer {
+        position: unset;
+        display:none;
+
+    }
+}
+
+// @media screen and (max-height:400px) {
+
+//     footer {
+//         position: unset;
+//         display:none;
+
+//     }
+// }
